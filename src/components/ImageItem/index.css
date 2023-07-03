@@ -1,0 +1,28 @@
+.list-image {
+  list-style-type: none;
+  margin: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-image {
+    margin: 10px;
+  }
+}
+
+.tn-image {
+  height: 70px;
+}
+
+.tn-btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .tn-btn {
+    height: 60px;
+    width: 60px;
+  }
+}
